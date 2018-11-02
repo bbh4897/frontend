@@ -134,13 +134,11 @@
     display: none;
 }
 
-
 .side-2-ul li {
     list-style: none;
     margin-bottom: 15px;
     position: relative;
-    left: -60px;
-    top: 17px;
+    left: -40px;;
 }
 
 
@@ -150,6 +148,8 @@
     font-size: 20px;
     color: #008B8B;
 }
+
+
 
 .side-2-content-title {
     position: relative;
@@ -169,7 +169,7 @@
     position: relative;
     top: -28px;
     margin-bottom: 10px;
-    margin-top: 18px;
+    margin-top: 50px;
     min-height: 350px;
     background-color: white;
     text-align: center;

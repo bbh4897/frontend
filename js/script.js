@@ -39,3 +39,31 @@ function showSlides(n) {
   slides[slideNo-1].style.display = "block";  
 }
 
+
+
+///  ıkıncı slıderrrrrrrr//////////////////////////////////////////////
+
+var grpImgNo = 1;
+showGrpImg(grpImgNo);
+
+function grpImgChanges(n) {
+  showGrpImg(grpImgNo += n);
+}
+
+function currentGrpImg(n) {
+  showGrpImg(grpImgNo = n);
+}
+
+function showGrpImg(n) {
+  var j;
+  var grpImgs = document.getElementsByClassName("groupImg");
+  
+  if (n > grpImgs.length) {grpImgNo = 1}    
+  if (n < 1) {grpImgNo = grpImgs.length}
+  for (j = 0; j < grpImgs.length; j++) {
+      grpImgs[j].style.display = "none";  
+  }
+ 
+  grpImgs[grpImgNo-1].style.display = "block";  
+}
+

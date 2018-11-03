@@ -183,8 +183,7 @@
     height: auto;
 }
 
-.prev,
-.next {
+.prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -198,8 +197,7 @@
     border-radius: 3px 0 0 3px;
 }
 
-.prev:hover,
-.next:hover {
+.prev:hover, .next:hover {
     background-color: white;
 }
 
@@ -211,6 +209,62 @@
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
+.mc2-title{
+    font-size: 12px;
+    font-family: 'Gothic A1', sans-serif;
+    color: #008B8B;
+    
+}
+
+.prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1px;
+    margin-top: -22px;
+}
+
+.next2 {
+    right: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev2:hover, .next2:hover {
+    background-color: #008B8B;
+}
+
+
+
+.grp-img-list li{
+    float: left;
+    margin-right: 35px;
+    list-style: none;    
+}
+
+
+.grp-title{
+    font-size: 20px;
+    width: 200px;
+}
+
+.grp-content{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @-webkit-keyframes fade {
     from {

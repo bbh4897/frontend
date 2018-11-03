@@ -13,7 +13,7 @@ for (i = 0; i < dropdown.length; i++) {
     });
 }
 
-
+// SLİDER ///////
 
 var slideNo = 1;
 showSlides(slideNo);
@@ -41,7 +41,7 @@ function showSlides(n) {
 
 
 
-///  ıkıncı slıderrrrrrrr//////////////////////////////////////////////
+///  SLİDE IMG/////
 
 var grpImgNo = 1;
 showGrpImg(grpImgNo);

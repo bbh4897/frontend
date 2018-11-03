@@ -19,7 +19,6 @@
     padding-top: 18px;
     box-sizing: border-box;
     font-family: 'Gothic A1', sans-serif;
-
 }
 
 .header {
@@ -40,14 +39,12 @@
     top: 10px;
     left: 10px;
     box-sizing: border-box;
-
 }
 
 .social-links li {
     list-style: none;
     float: left;
     width: 30px;
-
 }
 
 .fa {
@@ -55,7 +52,6 @@
     margin: 8px;
     border-radius: 5px;
     box-sizing: border-box;
-
 }
 
 .fa:hover {
@@ -99,7 +95,6 @@
 
 .side-1 {
     padding-top: 15px;
-
 }
 
 .side-1 a,
@@ -162,9 +157,6 @@
     color: #008B8B;
 }
 
-
-
-
 .mc {
     position: relative;
     top: -28px;
@@ -176,6 +168,10 @@
     font-size: large;
     padding: 10px;
     box-sizing: border-box;
+}
+
+.slider-content{
+    margin-top: -26px;
 }
 .slider-mc{
     display: none;
@@ -205,7 +201,6 @@
 }
 
 
-
 .fade1 {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -225,7 +220,6 @@
     font-size: 12px;
     font-family: 'Gothic A1', sans-serif;
     color: #008B8B;
-    
 }
 
 .prev2, .next2 {
@@ -247,7 +241,6 @@
 }
 
 
-
 .grp-img-list li{
     float: left;
     margin-right: 35px;
@@ -257,7 +250,6 @@
 .grp-title a:hover{
     text-decoration: none;
 }
-
 
 .grp-title{
     font-size: 20px;
@@ -273,17 +265,6 @@
     transform: scale(1.5); 
     border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 @-webkit-keyframes fade {
     from {
@@ -307,8 +288,6 @@
 
 
 
-
-
 .footer {
     margin-bottom: 75px;
     position: relative;
@@ -319,6 +298,10 @@
     font-size: large;
 }
 
+.footer-content{
+    padding: 10px;
+    
+}
 
 @media screen and (max-width: 300px) {
 
@@ -376,7 +359,5 @@
     .header-content {
         font-size: 8px;
     }
-
-
 
 }

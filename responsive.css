@@ -1,0 +1,286 @@
+#bd {
+    background-color: silver;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 100%;
+    height:90%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.logoContent {
+    font-size:2vw;
+    color: #008B8B;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    
+}
+
+.header-content {
+    font-size: 1vw;    
+    width: 100%;
+    color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 9px;
+    margin-left: 7px;
+}
+
+.social-links{
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+.social-links li{
+    float: right;
+    position: relative;
+    bottom: 4px;
+    top: 1px;
+    width: 11%;
+    font-size: 1vw;
+    
+}
+
+
+.fa {
+    padding: 5px;
+    margin: 8px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+
+.fa-rss {
+    background: #ff6600;
+    color: white;
+}
+
+.sb {
+    margin-bottom: 10px;
+    min-height: 270px;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+}
+
+
+.side-1 {
+    padding-top: 15px;
+}
+
+.side-1 a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    font-size: 17px;
+    color: gray;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+.side-1 a:hover,
+.dropdown-btn:hover {
+    color: #008B8B;
+    text-decoration: none;
+}
+
+
+.active {
+    background-color: #2E8B57;
+    color: white;
+}
+
+.dropdown-container {
+    background-color: #FFF5EE;
+    padding-left: 15px;
+    display: none;
+}
+
+.side-2-ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    position: relative;
+    left: -40px;;
+}
+
+
+#side-2-title {
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #008B8B;
+}
+
+
+
+.side-2-content-title {
+    position: relative;
+    left: 15px;
+    color: gray;
+}
+
+.side-2-content-title:hover {
+    text-decoration: none;
+    color: #008B8B;
+}
+
+.mc {
+    position: relative;
+    top: -28px;
+    margin-bottom: 10px;
+    min-height: 350px;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.slider-content{
+}
+.slider-mc{
+    display: none;
+}
+
+.slider-mc img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+}
+
+.next {
+    right: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: white;
+}
+
+
+.fade1 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.fade2 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+
+.mc2-title{
+    font-size: 12px;
+    font-family: 'Gothic A1', sans-serif;
+    color: #008B8B;
+}
+
+.prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1px;
+    margin-top: -22px;
+}
+
+.next2 {
+    right: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev2:hover, .next2:hover {
+    background-color: #008B8B;
+}
+
+
+.grp-img-list li{
+    float: left;
+    margin-right: 35px;
+    list-style: none;    
+}
+
+.grp-title a:hover{
+    text-decoration: none;
+}
+
+.grp-title{
+    font-size: 20px;
+    width: 200px;
+}
+
+.grp-content{
+    width: 200px;
+}
+
+
+.zoom:hover {
+    transform: scale(1.5); 
+    border-radius: 5px;
+}
+
+
+
+
+.footer {
+    margin-bottom: 75px;
+    position: relative;
+    top: -20px;
+    min-height: 50px;
+    background-color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.footer-content{
+    padding: 10px;
+    
+}
+

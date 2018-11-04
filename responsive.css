@@ -25,7 +25,7 @@
 }
 
 .header-content {
-    font-size: 1vw;    
+    font-size: 0.9vw;    
     width: 100%;
     color: gray;
     font-family: 'Roboto Condensed', sans-serif;
@@ -87,22 +87,23 @@
 }
 
 .sb {
-    margin-bottom: 10px;
-    min-height: 270px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
     background-color: white;
-    text-align: center;
-    font-size: large;
 }
 
 
 .side-1 {
-    padding-top: 15px;
+    position: relative;
+    top: 2px;
 }
+
 
 .side-1 a,
 .dropdown-btn {
     padding: 6px 8px 6px 16px;
-    font-size: 17px;
+    font-size:1.4vw;
     color: gray;
     display: block;
     border: none;
@@ -131,32 +132,45 @@
     display: none;
 }
 
-.side-2-ul li {
-    list-style: none;
-    margin-bottom: 15px;
-    position: relative;
-    left: -40px;;
-}
-
 
 #side-2-title {
-    padding-top: 10px;
-    box-sizing: border-box;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: #008B8B;
+    position: relative;
+    left: 10px;
+    top: 5px;
 }
 
-
+.s2-img{
+    width: 100%;
+    height: auto;
+    border-radius: 15%;
+    margin: 5%;
+}
 
 .side-2-content-title {
+    width: 100%;
+    height: auto;
+    font-size: 1.2vw;
+    color: #008B8B;
     position: relative;
-    left: 15px;
-    color: gray;
+    left: -5%;
+    top: 5px;
 }
 
 .side-2-content-title:hover {
     text-decoration: none;
     color: #008B8B;
+}
+
+.side-2-content-text{
+    width: 95%;
+    height: auto;
+    color: gray;
+    font-size: 1vw;
+    position: relative;
+    left: -10%;
+    top: 5px;
 }
 
 .mc {
@@ -172,6 +186,7 @@
 }
 
 .slider-content{
+    margin-bottom: 50px;
 }
 .slider-mc{
     display: none;
@@ -217,18 +232,22 @@
 
 
 .mc2-title{
-    font-size: 12px;
+    font-size: 1vw;
     font-family: 'Gothic A1', sans-serif;
     color: #008B8B;
 }
 
+.cz{
+    width: 100%;
+}
+
 .prev2, .next2 {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 1px;
-    margin-top: -22px;
+    position: relative;
+    top: -15%;
+    width: 100%;;
+    padding: 5%;
+    font-size:1.5vw;
 }
 
 .next2 {
